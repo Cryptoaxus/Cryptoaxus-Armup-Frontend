@@ -92,14 +92,14 @@ ul {
     font-family: 'Inter', sans-serif;
 }
 
-.Footer-Head {
+.footer-Head {
     color: #000;
     font-size: 24px;
     font-weight: 700;
     line-height: 160%;
 }
 
-.Footer-subhead {
+.footer-subhead {
     color: #000;
     font-size: 20px;
     font-weight: 500;
@@ -107,7 +107,7 @@ ul {
     font-family: 'Inter', sans-serif;
 }
 
-.Form-email {
+.form-email {
     display: flex;
     padding: 16px 24px;
     align-items: center;

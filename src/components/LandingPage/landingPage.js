@@ -1,27 +1,10 @@
 import React from "react";
-import "./landingpage.css"
+import "./landingPage.css"
 const LandingPage = () => {
     return (
         <div className="container">
             <div >
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
+                <h1 className="heading">Explore, Collect, and Sell  NFTs</h1>
             </div>
         </div>
     );

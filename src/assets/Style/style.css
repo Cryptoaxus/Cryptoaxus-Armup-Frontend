@@ -8,6 +8,12 @@ h4 {
     font-family: 'Clash Display', sans-serif !important;
 }
 
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Clash Display', sans-serif !important;
+    background-color: var(--gray-200, #F9FAFB);;
+}
+
 .btn-primary {
     border-radius: 1000px !important;
     background: var(--blue-500, #298DFE) !important;
@@ -24,4 +30,21 @@ h4 {
     justify-content: center;
     text-align: center;
     display: flex;
+}
+
+.Main_heading {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.Main-Paragraph {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
 }

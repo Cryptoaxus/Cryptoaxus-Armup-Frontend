@@ -1,30 +1,12 @@
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import React from "react-dom";
 import "bootstrap/dist/css/bootstrap.css";
-import Header from "./components/shared/header/header";
-import Footer from "./components/shared/footer/footer";
-import LandingPage from "./components/LandingPage/landingPage";
-import "./assets/Style/style.css"
+import "./assets/style/style.css"
+import MainRoutes from "./mainRoutes";
 const App = (props) => {
-  const LayoutHeader = ({ children }) => {
-    return (
-      <div className="Gradient">
-        <Header />
-        {children}
-        <Footer />
-      </div>
-    );
-  };
+
 
   return (
-    <Router>
-      <Switch>
-        <Route exact path={"/LandingPage"} component={LandingPage} />
-        <LayoutHeader>
-          <Route exact path={"/"} component={LandingPage} />
-        </LayoutHeader>
-      </Switch>
-    </Router>
+    <MainRoutes />
   );
 };
 export default App;
