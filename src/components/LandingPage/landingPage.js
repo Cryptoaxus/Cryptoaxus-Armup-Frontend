@@ -5,23 +5,6 @@ const LandingPage = () => {
         <div className="container">
             <div >
                 <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
-                <h1 className="Heading">Explore, Collect, and Sell  NFTs</h1>
             </div>
         </div>
     );
