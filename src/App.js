@@ -3,8 +3,8 @@ import React from "react-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import Header from "./components/shared/header/header";
 import Footer from "./components/shared/footer/footer";
-import LandingPage from "./components/LandingPage/landingPage";
-import "./assets/Style/style.css"
+import LandingPage from "./components/landingPage/landingPage";
+import "./assets/style/style.css"
 const App = (props) => {
   const LayoutHeader = ({ children }) => {
     return (

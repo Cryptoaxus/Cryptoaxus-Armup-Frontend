@@ -1,10 +1,10 @@
 import "./footer.css"
 import React from "react";
 import Form from 'react-bootstrap/Form';
-import { ReactComponent as Youtube } from '../../../assets/Images/Icons/Youtube.svg';
-import { ReactComponent as Facebook } from '../../../assets/Images/Icons/Facebook.svg';
-import { ReactComponent as Instagram } from '../../../assets/Images/Icons/Instagram.svg';
-import { ReactComponent as Logo } from '../../../assets/Images/Icons/ARMNFT_logo -Footer.svg';
+import { ReactComponent as Youtube } from '../../../assets/Images/Icons/youTube.svg';
+import { ReactComponent as Facebook } from '../../../assets/Images/Icons/facebook.svg';
+import { ReactComponent as Instagram } from '../../../assets/Images/Icons/instagram.svg';
+import { ReactComponent as Logo } from '../../../assets/Images/Icons/armNftlogoFooter.svg';
 
 const Footer = () => {
     return (
@@ -31,30 +31,30 @@ const Footer = () => {
                                 <div className=" d-flex">
                                     <div class="p-lg-3">
                                         <div>
-                                            <h3 className="Footer-Head">NFT</h3>
+                                            <h3 className="footer-Head">NFT</h3>
                                         </div>
                                         <div className="list pt-2">
-                                            <div className="Footer-subhead pt-lg-3">Explore</div>
-                                            <div className="Footer-subhead pt-lg-3">Stats</div>
-                                            <div className="Footer-subhead pt-lg-3">Blog</div>
+                                            <div className="footer-subhead pt-lg-3">Explore</div>
+                                            <div className="footer-subhead pt-lg-3">Stats</div>
+                                            <div className="footer-subhead pt-lg-3">Blog</div>
                                         </div>
                                     </div>
                                     <div class="p-lg-3">
                                         <div>
-                                            <h3 className="Footer-Head">MY ACCOUNT</h3>
+                                            <h3 className="footer-Head">MY ACCOUNT</h3>
                                         </div>
                                         <div className="list pt-2">
-                                            <div className="Footer-subhead pt-lg-3">My Profile</div>
-                                            <div className="Footer-subhead pt-lg-3">My Collection</div>
+                                            <div className="footer-subhead pt-lg-3">My Profile</div>
+                                            <div className="footer-subhead pt-lg-3">My Collection</div>
                                         </div>
                                     </div>
                                     <div class="p-lg-3">
                                         <div>
-                                            <h3 className="Footer-Head">COMPANY</h3>
+                                            <h3 className="footer-Head">COMPANY</h3>
                                         </div>
                                         <div className="list pt-2">
-                                            <div className="Footer-subhead pt-lg-3">Careers</div>
-                                            <div className="Footer-subhead pt-lg-3">About</div>
+                                            <div className="footer-subhead pt-lg-3">Careers</div>
+                                            <div className="footer-subhead pt-lg-3">About</div>
                                         </div>
                                     </div>
                                 </div>
@@ -65,13 +65,13 @@ const Footer = () => {
                             <div class="col-xl-4 col-lg-4 col-md-6 mb-50 col4-bg p-5 right-radious">
                                 <div class="footer-widget">
                                     <div class="center pb-4">
-                                        <h3 className="Footer-Head">JOIN OUR COMMUNITY</h3>
+                                        <h3 className="footer-Head">JOIN OUR COMMUNITY</h3>
                                     </div>
                                     <div class="subscribe-form">
                                         <form action="#" className="center pb-4">
                                             <Form.Control size="lg" type="search"
                                                 placeholder="Your email address"
-                                                className='Form-email' />
+                                                className='form-email' />
                                         </form>
                                         <button type="button" className="btn btn-submit">Submit</button>
                                     </div>
