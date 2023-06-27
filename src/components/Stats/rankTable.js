@@ -1,7 +1,7 @@
 import React from "react";
 import { ReactComponent as CollectionImg } from '../../assets/Images/Img/collectionProfile.svg';
-import { ReactComponent as Eth } from '../../assets/Images/currencyIcon/ethereum-1.svg';
-import { DummyRank } from "./DummyRes";
+import { ReactComponent as Eth } from '../../assets/Images/currencyIcon/ethereum.svg';
+import { DummyRank } from "./dummyRes";
 import "./stats.css"
 const RankTable = () => {
     return (
