@@ -1,15 +1,15 @@
 import React from "react";
 import "./stats.css"
 
-const StatusTop = () => {
+const StatsHead = () => {
     return (
-        <div className="p-lg-5">
-            <h1 className="Main_heading">Market Stats</h1>
-            <p className="Main-Paragraph">
+        <div className="p-5">
+            <h1 className="mainHeading">MARKET STATS</h1>
+            <p className="mainParagraph">
                 The top NFTs on Crypto, ranked by volume, floor <br/>
                 price and other statistics
             </p>
         </div>
     );
 }
-export default StatusTop;
+export default StatsHead;

@@ -4,7 +4,7 @@ import { ReactComponent as Eth } from '../../assets/Images/currencyIcon/ethereum
 import { ReactComponent as Favorite } from '../../assets/Images/Icons/favorite.svg';
 import { ReactComponent as Eye } from '../../assets/Images/Icons/eye.svg';
 import { ReactComponent as Down } from '../../assets/Images/Icons/arrow-down-white.svg';
-import { DummyRank } from "./DummyRes";
+import { DummyRank } from "./dummyRes";
 import "./stats.css"
 import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';

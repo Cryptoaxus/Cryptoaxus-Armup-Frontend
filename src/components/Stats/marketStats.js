@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import StatusTop from "./StatsTop";
+import statsHead from "./statsHead";
 import StatsFilter from "./statsFilter";
 import StatsSideFilter from "./statsSideFilter";
 import RankTable from "./rankTable";
@@ -12,8 +12,8 @@ const MarketStats = () => {
     const handleToggle = () => setIsChecked(!isChecked);
     
     return (
-        <div className="px-5">
-            <StatusTop />
+        <div className="p-lg-5">
+            <statsHead />
             <StatsFilter />
             <div className="row p-5">
                 <div className="col-3">

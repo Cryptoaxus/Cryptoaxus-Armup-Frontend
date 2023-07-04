@@ -32,15 +32,16 @@ body {
     display: flex;
 }
 
-.Main_heading {
+.mainHeading {
     font-size: 48px;
     font-weight: 700;
     line-height: 61px;
     letter-spacing: 0em;
     text-align: left;
+    font-family: 'Clash Display', sans-serif !important;
 }
 
-.Main-Paragraph {
+.mainParagraph {
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     font-weight: 500;

@@ -5,7 +5,7 @@ import Header from "./components/shared/header/header";
 import Footer from "./components/shared/footer/footer";
 import LandingPage from "./components/landingPage/landingPage";
 import "./assets/style/style.css"
-import MarketStats from "./components/Stats/marketStats";
+import MarketStats from "./components/stats/marketStats";
 const Routes = (props) => {
     const LayoutHeader = ({ children }) => {
         return (
