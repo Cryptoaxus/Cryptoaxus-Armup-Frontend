@@ -1,0 +1,11 @@
+.gradient {
+    background: linear-gradient(180deg, #EBF5FF 25%, rgba(255, 255, 255, 0) 100%, rgba(255, 255, 255, 0) 100%);
+}
+
+.heading {
+    font-style: normal;
+    font-weight: 700;
+    line-height: 128%;
+    text-transform: uppercase;
+    color: #000000;
+}
