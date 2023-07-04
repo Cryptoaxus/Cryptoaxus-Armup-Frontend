@@ -1,19 +1,19 @@
 import React, { useState } from "react";
-import statsHead from "./statsHead";
 import StatsFilter from "./statsFilter";
 import StatsSideFilter from "./statsSideFilter";
 import RankTable from "./rankTable";
 import Pagination from "./pagination";
 import { Form } from "react-bootstrap";
+import StatsHead from "./statsHead";
 
 const MarketStats = () => {
     const [isChecked, setIsChecked] = useState(false);
 
     const handleToggle = () => setIsChecked(!isChecked);
-    
+
     return (
         <div className="p-lg-5">
-            <statsHead />
+            <StatsHead />
             <StatsFilter />
             <div className="row p-5">
                 <div className="col-3">
