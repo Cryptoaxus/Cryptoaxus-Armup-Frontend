@@ -10,7 +10,7 @@ const MarketStats = () => {
     const [isChecked, setIsChecked] = useState(false);
 
     const handleToggle = () => setIsChecked(!isChecked);
-    debugger
+    
     return (
         <div className="px-5">
             <StatusTop />

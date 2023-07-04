@@ -55,14 +55,13 @@
 
 /* Drop Down */
 .css-13cymwt-control {
-    border-radius: 32px !important;
-    height: 48px;
+    border: none !important;
 }
 
 .css-t3ipsp-control {
     border-radius: 32px !important;
-    height: 48px;
     border: none !important;
+    box-shadow: none !important;
 }
 
 .css-1u9des2-indicatorSeparator {
@@ -70,15 +69,13 @@
 }
 
 .ui.selection.dropdown {
-    width: 126px !important;
-    border-radius: 32px !important;
-    padding: 16px 12px 16px 12px !important;
+   border: none !important;
 }
 
 .explore a {
     color: var(--grayscale-900, #091535) !important;
     font-size: 20px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-weight: 600;
     line-height: 180%;
 }
@@ -105,7 +102,7 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 180%;
-    font-family: "inter";
+    font-family: 'Inter', sans-serif;
 }
 
 .login-btn {
@@ -129,4 +126,22 @@
     position: absolute;
     margin-top: 9px;
     margin-left: 10px;
+}
+
+.currencyDrop {
+    border-radius: 32px !important;
+    padding: 4px 12px 4px 12px !important;
+
+    background: #FFFFFF;
+    border: 1px solid #CDD6D7;
+    display: block;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 180%;
+    color: #04091E;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3e%3cpolyline points='6 9 12 15 18 9'%3e%3c/polyline%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1em;
 }

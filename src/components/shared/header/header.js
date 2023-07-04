@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 import { ReactComponent as Logo } from '../../../assets/Images/Logo/armNftLogo.svg';
 import { ReactComponent as User } from '../../../assets/Images/Icons/user.svg';
 import { ReactComponent as Search } from '../../../assets/Images/Icons/searchNormal.svg';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useHistory } from 'react-router-dom';
 import Form from 'react-bootstrap/Form';
 import { Button } from 'semantic-ui-react'
 import 'semantic-ui-css/semantic.min.css'
@@ -14,6 +14,7 @@ import Select from 'react-select';
 const Header = () => {
 
     const location = useLocation();
+    const history = useHistory();
     const [navbarBg, setNavbarBg] = useState('transparent');
     const [SearchBorder, setSearchBorder] = useState('form-control-header');
     const currency = [
@@ -169,7 +170,7 @@ const Header = () => {
                         <Nav.Link >
                             <div className="itemSpacing explore TxtOverFlow">
                                 <Link className={location.pathname === '/explore' ? 'active' : ''}>Explore</Link>
-                                <Link to={{ pathname: `/stats/Trending` }}
+                                <Link to='/stats/Trending'
                                     className={location.pathname === '/stats/Trending' ? 'active' : ''}>Stats</Link>
                                 <Link className={location.pathname === '/blogs' ? 'active' : ''}>Blogs</Link>
                             </div>
@@ -181,6 +182,7 @@ const Header = () => {
                                 defaultValue={currency[0]}
                                 options={currency}
                                 isSearchable={false}
+                                className='currencyDrop'
                                 getOptionLabel={(e) => (
                                     <div style={{ display: 'flex', alignItems: 'center' }}>
                                         {e.icon}

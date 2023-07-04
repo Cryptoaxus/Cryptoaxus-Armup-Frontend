@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 // import { ReactComponent as Youtube } from '../../../assets/Images/Icons/Youtube.svg';
 import { Link, useLocation } from 'react-router-dom';
+import { ReactComponent as Down } from '../../assets/Images/Icons/filterArrowDown.svg';
 
 
 const StatsFilter = () => {
@@ -16,8 +17,8 @@ const StatsFilter = () => {
             <div className="d-flex justify-content-between">
                 <div className="itemSpacing stats">
                     <Link className={location.pathname === '/stats/Trending' ? 'active' : ''} >Trending</Link>
-                    <Link className={location.pathname === '/Top Volume' ? 'active' : ''}>Top Volume</Link>
-                    <Link className={location.pathname === '/blogs' ? 'active' : ''}>Newly Listed</Link>
+                    <Link className={location.pathname === '/stats/TopVolume' ? 'active' : ''}>Top Volume</Link>
+                    <Link className={location.pathname === '/stats/NewListed' ? 'active' : ''}>Newly Listed</Link>
                 </div>
                 <div className="tab-container">
                     <div
@@ -41,9 +42,9 @@ const StatsFilter = () => {
                         7d
                     </div>
                     <div
-                        className={`tab ${activeTab === 5 ? 'active' : ''}`}
+                        className={`tab gap-2 ${activeTab === 5 ? 'active' : ''}`}
                         onClick={() => handleTabClick(5)}                    >
-                        More
+                        More 
                     </div>
                 </div>
             </div>

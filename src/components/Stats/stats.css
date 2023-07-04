@@ -102,7 +102,83 @@
 }
 
 /* tble */
+.table-back {
+    border-radius: 16px;
+    border: 1px solid var(--gray-500, #CFD9E3);
+    background: #FFF;
+}
 
+.table-head {
+    background: var(--neutral-600, #253C60);
+    padding: 20px;
+    border-radius: 16px 16px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.table-body {
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Inter', sans-serif;
+}
+
+.table-body span {
+    font-family: 'Inter', sans-serif;
+    line-height: 140%;
+    font-style: normal;
+}
+
+.rank {
+    color: var(--grayscale-900, #091535);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.collection-Name {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.volumn {
+    font-weight: 600;
+    color: var(--grayscale-900, #091535);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.change {
+    color: var(--grayscale-600, #61697D);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.floor-price {
+    font-weight: 600;
+    color: var(--grayscale-900, #091535);
+    font-size: 20px;
+}
+
+.owner {
+    color: var(--grayscale-700, #38415B);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.NFTs-count {
+    color: var(--grayscale-400, #A6ABB6);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.table-head span {
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    line-height: 140%;
+}
 
 /* pagination */
 .form-switch .form-check-input {
