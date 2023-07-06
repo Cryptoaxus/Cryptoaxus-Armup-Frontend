@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import React from "react-dom";
+import "bootstrap/dist/css/bootstrap.css";
+import Header from "./components/shared/header/header";
+import Footer from "./components/shared/footer/footer";
+import LandingPage from "./components/landingPage/landingPage";
+import "./assets/style/style.css"
+const App = (props) => {
+  const LayoutHeader = ({ children }) => {
+    return (
+      <div className="Gradient">
+        <Header />
+        {children}
+        <Footer />
+      </div>
+    );
+  };
 
-function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path={"/LandingPage"} component={LandingPage} />
+        <LayoutHeader>
+          <Route exact path={"/"} component={LandingPage} />
+        </LayoutHeader>
+      </Switch>
+    </Router>
   );
-}
-
+};
 export default App;
